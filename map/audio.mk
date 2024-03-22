@@ -94,9 +94,8 @@ $(call copy-vendor-files, lib/soundfx/libasphere.so)
 
 # HotwordEnrollment {{{
 PRODUCT_PACKAGES += \
-    HotwordEnrollmentOKGoogleHEXAGON \
-    HotwordEnrollmentXGoogleHEXAGON \
+    HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
+    HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     com.android.hotwordenrollment.common.util
-$(call copy-product-files, etc/permissions/privapp-permissions-google-hotword.xml)
 $(call copy-system-ext-files, etc/permissions/com.android.hotwordenrollment.common.util.xml)
 # }}}
