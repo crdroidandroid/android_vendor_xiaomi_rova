@@ -38,6 +38,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.slmadapter-V1.0-java  \
     vendor.qti.latency-V2.0-java  \
     vendor.qti.latency-V2.1-java
+
+PRODUCT_PACKAGES += \
+    libimscamera_jni_libimscamera_jni_symlink64 \
+    libimsmedia_jni_libimsmedia_jni_symlink64
+
 $(call copy-system-ext-files, \
     lib64/com.quicinc.cne.api@1.0.so  \
     lib64/com.quicinc.cne.api@1.1.so  \
