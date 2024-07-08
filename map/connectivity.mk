@@ -457,5 +457,6 @@ $(call copy-vendor-files, lib64/libaoa.so)
 $(call copy-vendor-files, \
     bin/ptt_socket_app \
     bin/wcnss_service \
+    bin/hw/wpa_supplicant \
 )
 # }}}
